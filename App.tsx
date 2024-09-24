@@ -53,7 +53,7 @@ useEffect(() => {
         }}
       />
 
-      <Button show onPress={exibirMensagem} onClick={count} title='Quebrar biscoito'/>
+      <Button onPress={exibirMensagem} onClick={count} title='Quebrar biscoito'/>
 
 
     </SafeAreaView>
